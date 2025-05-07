@@ -771,7 +771,7 @@ const PrintableReport = ({ data = defaultData }) => {
             </div>
             
             <p className="text-gray-700 leading-relaxed mb-4">
-              進銷存管理獲得8/15分，顯示企業在ERP系統報表功能、盤點系統自動化和庫存管理系統三個方面都有不同程度的發展需求。其中，ERP系統報表功能獲得3分，顯示企業希望強化基礎分析能力；盤點系統自動化獲得2分，反映這方面還有較大提升空間；庫存管理系統獲得3分，表明企業認識到庫存管理對營運的重要性。
+              進銷存管理評估顯示企業在ERP系統報表功能、盤點系統自動化和庫存管理系統三個方面都有不同程度的發展需求。其中，ERP系統報表功能評估為3分，顯示企業希望強化基礎分析能力；盤點系統自動化評估為2分，反映這方面還有較大提升空間；庫存管理系統評估為3分，表明企業認識到庫存管理對營運的重要性。
             </p>
             
             <p className="text-gray-700 leading-relaxed">
@@ -793,7 +793,7 @@ const PrintableReport = ({ data = defaultData }) => {
             </div>
             
             <p className="text-gray-700 leading-relaxed mb-4">
-              財務流程自動化獲得10/15分，企業在電子發票與記帳系統、電子支付系統和銀行對帳自動化三個方面都有明確的發展方向。其中，電子發票與記帳系統獲得4分，反映企業對自動化記帳的重視；電子支付系統獲得3分，顯示已有基礎整合；銀行對帳自動化獲得3分，表明企業正在推動減少人工作業。
+              財務流程自動化評估顯示企業在電子發票與記帳系統、電子支付系統和銀行對帳自動化三個方面都有明確的發展方向。其中，電子發票與記帳系統評估為4分，反映企業對自動化記帳的重視；電子支付系統評估為3分，顯示已有基礎整合；銀行對帳自動化評估為3分，表明企業正在推動減少人工作業。
             </p>
             
             <p className="text-gray-700 leading-relaxed">
@@ -815,7 +815,7 @@ const PrintableReport = ({ data = defaultData }) => {
             </div>
             
             <p className="text-gray-700 leading-relaxed mb-4">
-              財務數據分析獲得11/15分，企業在財務數據資料庫、財務數據分析工具和財務KPI設定三個方面都有較高的發展意願。其中，財務數據資料庫和財務數據分析工具均獲得4分，反映企業已建立較完善的財務分析基礎；財務KPI設定獲得3分，顯示企業已開始注重績效追蹤，但仍有優化空間。
+              財務數據分析評估顯示企業在財務數據資料庫、財務數據分析工具和財務KPI設定三個方面都有較高的發展意願。其中，財務數據資料庫和財務數據分析工具均評估為4分，反映企業已建立較完善的財務分析基礎；財務KPI設定評估為3分，顯示企業已開始注重績效追蹤，但仍有優化空間。
             </p>
             
             <p className="text-gray-700 leading-relaxed">
@@ -837,7 +837,7 @@ const PrintableReport = ({ data = defaultData }) => {
             </div>
             
             <p className="text-gray-700 leading-relaxed mb-4">
-              成本與風險管理獲得12/15分，企業在預算控管、應收付帳款管理和現金流量追蹤三個方面都有較高的發展意願。其中，預算控管、應收付帳款管理和現金流量追蹤均獲得4分，反映企業對財務風險管理的高度重視，這是企業較為關注的領域。
+              成本與風險管理評估顯示企業在預算控管、應收付帳款管理和現金流量追蹤三個方面都有較高的發展意願。其中，預算控管、應收付帳款管理和現金流量追蹤均評估為4分，反映企業對財務風險管理的高度重視，這是企業較為關注的領域。
             </p>
             
             <p className="text-gray-700 leading-relaxed">
@@ -899,15 +899,15 @@ const PrintableReport = ({ data = defaultData }) => {
                 <div className="text-blue-700 font-medium mb-1">轉型工具</div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
                   <div className="bg-white p-4 rounded-lg border border-blue-200">
-                    <div className="font-medium text-blue-700 mb-2">EZ Started Plus</div>
+                    <div className="font-medium text-blue-700 mb-2">製造材料成本分析系統</div>
                     <div className="text-sm text-gray-500 mb-1">服務機構：AI 財務人培</div>
                     <p className="text-gray-700 text-sm">根據製造業需求設計請採購、進銷存、財會及成本，以AI產生作業表報，以雲端架構減少主機管理人員及降低建置費，透過AI計算，可產出管理加工單並算出材料需求量，並提供鋼鐵材計算公式，可計算出重量(長、寬、係數)、總成本、毛利。</p>
                   </div>
                   
                   <div className="bg-white p-4 rounded-lg border border-blue-200">
-                    <div className="font-medium text-blue-700 mb-2">AInsight+ 大內高手</div>
+                    <div className="font-medium text-blue-700 mb-2">財會流程管理及自動化工具</div>
                     <div className="text-sm text-gray-500 mb-1">服務機構：AI 財務人培</div>
-                    <p className="text-gray-700 text-sm">大內高手透過AI分析協助中小企業，運用日常使用的Excel報表，轉換成標準的企業財報，並協助中小企業能夠從龐大的數據中提取有價值的資訊，並提供在決策洞察。用最簡單的流程讓沒資訊人員的公司也能快速 AI 化。</p>
+                    <p className="text-gray-700 text-sm">圖視化管理：數據資料圖像化，方便管理者分析各項數據資料。工廠系統：新增自動生產排程，及PDM圖文保密管理系統。行動辦公：外勤人員辦公數位化。流程自動化操作：銷售、財會、採購、研發、庫存、及生管等循環的自動化。RPA功能與AI模型優化：提升操作人員對RPA分析數據應用的掌握度，幫助企業更好地應用數據，提高財務流程自動化。</p>
                   </div>
                 </div>
               </div>
@@ -949,15 +949,15 @@ const PrintableReport = ({ data = defaultData }) => {
                 <div className="text-indigo-700 font-medium mb-1">轉型工具</div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
                   <div className="bg-white p-4 rounded-lg border border-indigo-200">
-                    <div className="font-medium text-indigo-700 mb-2">Power BI</div>
+                    <div className="font-medium text-indigo-700 mb-2">BI分析平台</div>
                     <div className="text-sm text-gray-500 mb-1">服務機構：商業署30人以下數轉培力計畫</div>
-                    <p className="text-gray-700 text-sm">應用程式和連接器的集合，其可共同運作以協助您和企業透過最有效的方式建立、共用和取用商業見解，直接從瀏覽器使用報表以及這些報表中的各個視覺效果元素並與之互動。Power BI 服務中的儀表板可協助您掌握業務脈動。您可以選取儀表板所顯示的「磚」來開啟「報表」，以進一步探索。</p>
+                    <p className="text-gray-700 text-sm">應用程式和連接器的集合，其可共同運作以協助您和企業透過最有效的方式建立、共用和取用商業見解，直接從瀏覽器使用報表以及這些報表中的各個視覺效果元素並與之互動。BI 服務中的儀表板可協助您掌握業務脈動。您可以選取儀表板所顯示的「磚」來開啟「報表」，以進一步探索。儀表板和報表會根據其所基於的語意模型建立其互動式視覺效果，使您的資料能夠成為視覺效果，並將這些視覺效果組織到報表中。</p>
                   </div>
                   
                   <div className="bg-white p-4 rounded-lg border border-indigo-200">
-                    <div className="font-medium text-indigo-700 mb-2">TAN-JI 雲端 AI 平台</div>
+                    <div className="font-medium text-indigo-700 mb-2">雲端 AI 庫存盤點平台</div>
                     <div className="text-sm text-gray-500 mb-1">服務機構：SME AI</div>
-                    <p className="text-gray-700 text-sm">針對中小企業，全新打造，結合最新的庫存盤點與公司內部動態分享管理，讓您的營運更聰明。透過最新AI技術，能為您達成客戶問卷分析、統計、庫存盤點、任務成果，讓管理決策更精準。特色包括APP隨用、快速上手、價格親切，並已通過ISO27001資安認證。</p>
+                    <p className="text-gray-700 text-sm">專為中小企業打造的智慧營運解決方案，強調「10 個功能、3 個步驟」即可快速啟動數位轉型。結合先進的庫存盤點系統與企業內部動態分享工具，協助企業在營運管理與團隊協作上全面升級，讓營運流程更聰明、決策更精準。</p>
                   </div>
                 </div>
               </div>
@@ -999,13 +999,13 @@ const PrintableReport = ({ data = defaultData }) => {
                 <div className="text-teal-700 font-medium mb-1">轉型工具</div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
                   <div className="bg-white p-4 rounded-lg border border-teal-200">
-                    <div className="font-medium text-teal-700 mb-2">SaaS ERPII</div>
+                    <div className="font-medium text-teal-700 mb-2">財會流程管理及自動化工具</div>
                     <div className="text-sm text-gray-500 mb-1">服務機構：AI 財務人培</div>
                     <p className="text-gray-700 text-sm">圖視化管理：數據資料圖像化，方便管理者分析各項數據資料。工廠系統：新增自動生產排程，及PDM圖文保密管理系統。行動辦公：外勤人員辦公數位化。流程自動化操作：銷售、財會、採購、研發、庫存、及生管等循環的自動化。RPA功能與AI模型優化：提升操作人員對RPA分析數據應用的掌握度，幫助企業更好地應用數據，提高財務流程自動化。</p>
                   </div>
                   
                   <div className="bg-white p-4 rounded-lg border border-teal-200">
-                    <div className="font-medium text-teal-700 mb-2">COMMEET 雲端費用管理系統</div>
+                    <div className="font-medium text-teal-700 mb-2">AI表單識別工具</div>
                     <div className="text-sm text-gray-500 mb-1">服務機構：AI 財務人培</div>
                     <p className="text-gray-700 text-sm">透過AI 辨識系統，兼具效率、準確性，一次可處理大量圖檔、文件資訊，且不受語言別、地域限制，確實辨識所有必要資訊。自動提取資訊並透過 API 輸入至指定欄位，解決過去人工登打錯誤率，並大幅提升作業效率。</p>
                   </div>
@@ -1049,9 +1049,9 @@ const PrintableReport = ({ data = defaultData }) => {
                 <div className="text-orange-700 font-medium mb-1">轉型工具</div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
                   <div className="bg-white p-4 rounded-lg border border-orange-200">
-                    <div className="font-medium text-orange-700 mb-2">Vital Finance 財務會計管理</div>
+                    <div className="font-medium text-orange-700 mb-2">跨國跨系統會計帳整合系統</div>
                     <div className="text-sm text-gray-500 mb-1">服務機構：SME AI</div>
-                    <p className="text-gray-700 text-sm">適用於中小微型、企業及新創企業使用的會計總帳、應收應付與財產管理系統。提供中、英、日語系服務介面及報表，簡單易上手，高度彈性可自訂啟用多幣別、部門、專案等，使用者可適自身需求，無需工程師就能自行設定，是一個容易轉換、輕鬆上手的財務系統。</p>
+                    <p className="text-gray-700 text-sm">本財務管理系統專為中小微型企業及新創公司量身打造，涵蓋會計總帳、應收應付與財產管理等核心功能，協助企業掌握資金流向與財務健康狀況。系統操作簡便，無需依賴工程師即可上手設定，支援中、英、日三語介面與報表，滿足國際業務需求，也大幅降低導入與轉換門檻。</p>
                   </div>
                   
                   <div className="bg-white p-4 rounded-lg border border-orange-200">
