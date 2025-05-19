@@ -649,7 +649,7 @@ const PrintableReport = ({ data = defaultData }) => {
         </div>
         
         <div className="bg-white p-6 rounded-xl border-2 border-blue-200">
-          <h3 className="text-xl font-bold text-blue-800 mb-6">能力分佈評估</h3>
+          <h3 className="text-xl font-bold text-blue-800 mb-6">輔導需求分析</h3>
           
           {/* 能力條形圖 */}
           <div className="space-y-6 mb-6">
@@ -740,10 +740,9 @@ const PrintableReport = ({ data = defaultData }) => {
           
           {/* 能力評估摘要 */}
           <div className="p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg border border-blue-100">
-            <div className="text-lg font-semibold text-blue-800 mb-2">財務數位轉型推動重點分析</div>
+            <div className="text-lg font-semibold text-blue-800 mb-2">需求分析重點說明</div>
             <div className="text-gray-700">
-              <div className="mb-1"><span className="font-medium">優先發展：</span>成本與風險管理已具基礎 (80%)，建議作為轉型發展的基石，帶動其他領域成長。</div>
-              <div><span className="font-medium">急需突破：</span>進銷存管理推動程度較低 (53%)，應作為數位轉型的關鍵突破口。</div>
+              <div>成本與風險管理已具基礎，建議作為轉型發展的基石，帶動其他領域成長；進銷存管理推動程度較低，應作為數位轉型的關鍵突破口，優先強化ERP系統報表功能與庫存管理系統整合。</div>
             </div>
           </div>
         </div>
